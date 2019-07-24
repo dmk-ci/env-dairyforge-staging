@@ -25,3 +25,6 @@ dependencies:
 - name: interchange-app
   repository: http://jenkins-x-chartmuseum:8080
   version: 1.0.5
+- name: notifications-app
+  repository: http://jenkins-x-chartmuseum:8080
+  version: 1.0.10
