@@ -20,3 +20,31 @@ jenkins:
   Servers:
     Global: {}
 prow: {}
+
+py-envtest:
+  env:
+    CLUSTER_NAMESPACE: dairyforge-staging
+
+dspl-guetedaten-app:
+  env:
+    CLUSTER_NAMESPACE: dairyforge-staging
+dspl-userdetails-app:
+  env:
+    CLUSTER_NAMESPACE: dairyforge-staging
+dspl-documents-app:
+  env:
+    CLUSTER_NAMESPACE: dairyforge-staging
+
+consistency-app:
+  env:
+    CLUSTER_NAMESPACE: dairyforge-staging
+interchange-app:
+  env:
+    CLUSTER_NAMESPACE: dairyforge-staging
+notifications-app:
+  env:
+    CLUSTER_NAMESPACE: dairyforge-staging
+
+dspl-frontend-app:
+  env:
+    CLUSTER_NAMESPACE: dairyforge-staging
