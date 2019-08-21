@@ -41,6 +41,8 @@ consistency-app:
 interchange-app:
   env:
     CLUSTER_NAMESPACE: dairyforge-staging
+    DSPL_INTERCHANGE_STORAGE_BUCKET: dspl-interchange-app-staging
+    DSPL_INTERCHANGE_DATASTORE_PROJECT_ID: dspl-dev
 notifications-app:
   env:
     CLUSTER_NAMESPACE: dairyforge-staging
