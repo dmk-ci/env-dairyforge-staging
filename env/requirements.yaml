@@ -27,10 +27,7 @@ dependencies:
   version: 2.3.89
 - name: interchange-app
   repository: http://jenkins-x-chartmuseum:8080
-  version: 1.0.24
+  version: 1.0.26
 - name: notifications-app
   repository: http://jenkins-x-chartmuseum:8080
   version: 1.0.10
-# - name: py-envtest
-#   repository: http://jenkins-x-chartmuseum:8080
-#   version: 0.0.4
