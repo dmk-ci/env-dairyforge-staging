@@ -31,6 +31,6 @@ dependencies:
 - name: notifications-app
   repository: http://jenkins-x-chartmuseum:8080
   version: 1.0.10
-- name: py-envtest
-  repository: http://jenkins-x-chartmuseum:8080
-  version: 0.0.4
+# - name: py-envtest
+#   repository: http://jenkins-x-chartmuseum:8080
+#   version: 0.0.4
