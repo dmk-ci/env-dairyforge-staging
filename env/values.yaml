@@ -50,3 +50,7 @@ notifications-app:
 dspl-frontend-app:
   env:
     CLUSTER_NAMESPACE: dairyforge-staging
+
+edge-frontend:
+  env:
+    CLUSTER_NAMESPACE: dairyforge-staging
