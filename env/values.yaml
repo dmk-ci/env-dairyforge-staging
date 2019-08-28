@@ -50,6 +50,23 @@ notifications-app:
 dspl-frontend-app:
   env:
     CLUSTER_NAMESPACE: dairyforge-staging
+    NG_PRODUCTION: true
+    API_GUETEDATEN_URL: https://dspl-guetedaten-app.dairyforge-staging.dspl-dmk.de/v1
+    FB_API_KEY: AIzaSyCAHKFmLy-xuczDm97tEZWCV5l1qH9L14c
+    FB_AUTH_DOMAIN: dspl-dev-fs.firebaseapp.com
+    FB_DATABASE_URL: https://dspl-dev-fs.firebaseio.com
+    FB_PROJECT_ID: dspl-dev-fs
+    FB_STORAGE_BUCKET: dspl-dev-fs.appspot.com
+    FB_MESSAGING_SENDER_ID: 751430607057
+    FB_APP_ID: 1:751430607057:web:8c9285f819eacde2
+    FL_API_KEY: AIzaSyCoL1bAICUN0xXj_VaOT1GqaFeayMZtc1o
+    FL_AUTH_DOMAIN: dspl-production-fs.firebaseapp.com
+    FL_DATABASE_URL: https://dspl-production-fs.firebaseio.com
+    FL_PROJECT_ID: dspl-production-fs
+    FL_STORAGE_BUCKET: dspl-production-fs.appspot.com
+    FL_MESSAGING_SENDER_ID: 874085727955
+    FL_APP_ID: 1:874085727955:web:2407395ec3768d81
+    FIREBASE_STORAGE_IMAGE_URL: gs://dspl-production-fs.appspot.com/flamelink/media/
 
 edge-frontend:
   env:
